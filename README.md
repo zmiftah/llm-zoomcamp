@@ -112,7 +112,7 @@ docker run -it \
     -p 9300:9300 \
     -e "discovery.type=single-node" \
     -e "xpack.security.enabled=false" \
-    docker.elastic.co/elasticsearch/elasticsearch:8.4.3
+    docker.elastic.co/elasticsearch/elasticsearch:9.0.2
 ```
 
 If the previous command doesn't work (i.e. you see "error pulling image configuration"), try to run ElasticSearch directly from Docker Hub:
@@ -125,7 +125,7 @@ docker run -it \
     -p 9300:9300 \
     -e "discovery.type=single-node" \
     -e "xpack.security.enabled=false" \
-    elasticsearch:8.4.3
+    elasticsearch:9.0.2
 ```
 
 Index settings:
@@ -175,7 +175,7 @@ We use `"type": "best_fields"`. You can read more about
 different types of `multi_match` search in [elastic-search.md](elastic-search.md).
 
 # 1.7 Homework
-More information [here](../cohorts/2025/01-intro/homework.md).
+More information [here](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/01-intro/homework.md).
 
 
 # Extra materials
