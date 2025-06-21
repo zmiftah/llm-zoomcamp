@@ -103,6 +103,14 @@ work locally, you only need to change a few lines of code.
 
 Running ElasticSearch:
 
+You can use Docker Compose to run ElasticSearch (recommended):
+
+```bash
+docker compose up -d
+```
+
+Or use Docker directly:
+
 ```bash
 docker run -it \
     --rm \
